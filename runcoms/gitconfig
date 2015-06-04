@@ -1,0 +1,11 @@
+[credential]
+	helper = osxkeychain
+[user]
+	name = Timo Ulich
+	email = timo.ulich@asideas.de
+[merge]
+	tool = opendiff
+[diff]
+[diff]
+[push]
+	default = simple
