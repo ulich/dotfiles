@@ -1,11 +1,23 @@
 [credential]
 	helper = osxkeychain
 [user]
-	name = Timo Ulich
-	email = timo.ulich@asideas.de
+	name = 
+	email = 
 [merge]
 	tool = opendiff
 [diff]
 [diff]
 [push]
 	default = simple
+[diff]
+	tool = opendiff
+[difftool]
+	prompt = false
+[core]
+	excludesfile = /Users/tulich/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /opt/homebrew-cask/Caskroom/sourcetree/2.0.5.2/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
